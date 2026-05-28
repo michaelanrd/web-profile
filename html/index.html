@@ -1,5 +1,58 @@
 <!DOCTYPE html>
-<html>
-<head><title>Web Profile</title></head>
-<body><h1>Hello from Docker!</h1></body>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Profile</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 50px 60px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.2);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(135deg, #e94560, #0f3460);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin: 0 auto 24px;
+    }
+    h1 { font-size: 2rem; margin-bottom: 12px; }
+    .nim { color: #a0c4ff; font-size: 1rem; margin-bottom: 8px; }
+    .prodi {
+      display: inline-block;
+      background: linear-gradient(135deg, #e94560, #c62a47);
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-size: 0.95rem;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">?????</div>
+    <h1>Michael Andro Nathaniel</h1>
+    <p class="nim">NIM: 235150207111039</p>
+    <span class="prodi">Teknik Informatika</span>
+  </div>
+</body>
 </html>
